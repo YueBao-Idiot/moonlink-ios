@@ -1,0 +1,14 @@
+{
+  "name": "MoonLink iOS 软件源",
+  "identifier": "com.yueyue.moonlink.source",
+  "subtitle": "MoonLink (TeamSpeak 6) 非越狱免签分发源",
+  "description": "面向 SideStore / AltStore 的 MoonLink 官方开源自动构建软件源。首次云端构建完成后将自动写入最新版本链接。",
+  "iconURL": "https://raw.githubusercontent.com/YueBao-Idiot/moonlink-ios/main/icon.png",
+  "website": "https://github.com/YueBao-Idiot/moonlink-ios",
+  "tintColor": "#3B82F6",
+  "featuredApps": [
+    "com.yueyue.moonlink"
+  ],
+  "apps": [],
+  "news": []
+}
