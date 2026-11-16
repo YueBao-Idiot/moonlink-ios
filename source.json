@@ -2,13 +2,45 @@
   "name": "MoonLink iOS 软件源",
   "identifier": "com.yueyue.moonlink.source",
   "subtitle": "MoonLink (TeamSpeak 6) 非越狱免签分发源",
-  "description": "面向 SideStore / AltStore 的 MoonLink 官方开源自动构建软件源。首次云端构建完成后将自动写入最新版本链接。",
+  "description": "面向 SideStore / AltStore 的 MoonLink 官方开源自动构建软件源。无任何付费权限要求，支持免费个人 Apple ID 7 天无线自动续签。",
   "iconURL": "https://raw.githubusercontent.com/YueBao-Idiot/moonlink-ios/main/icon.png",
   "website": "https://github.com/YueBao-Idiot/moonlink-ios",
   "tintColor": "#3B82F6",
   "featuredApps": [
     "com.yueyue.moonlink"
   ],
-  "apps": [],
+  "apps": [
+    {
+      "name": "MoonLink",
+      "bundleIdentifier": "com.yueyue.moonlink",
+      "developerName": "YueBao",
+      "subtitle": "TeamSpeak 6 移动语音客户端",
+      "localizedDescription": "轻量快速的 TeamSpeak 6 客户端，支持 TS6 加密握手、后台息屏语音保活、播放与采集设备独立路由（含蓝牙耳机防发闷分离模式）、麦克风录音试听、RNNoise AI 降噪、加密聊天记录、频道文件浏览器、自定义 .ini 身份导入导出。",
+      "iconURL": "https://raw.githubusercontent.com/YueBao-Idiot/moonlink-ios/main/icon.png",
+      "tintColor": "#3B82F6",
+      "category": "social",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "6",
+          "date": "2026-11-16",
+          "localizedDescription": "MoonLink iOS v1.0.0 (Build 6)：GitHub Actions 自动构建的未签名通用安装包。",
+          "downloadURL": "https://github.com/YueBao-Idiot/moonlink-ios/releases/download/ios-v1.0.0-b6/MoonLink-v1.0.0-b6-unsigned.ipa",
+          "size": 5046206,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "用于频道语音通话与麦克风录音试听。",
+          "NSCameraUsageDescription": "用于拍摄聊天图片或头像。",
+          "NSPhotoLibraryUsageDescription": "用于选择聊天图片或个人头像。",
+          "NSPhotoLibraryAddUsageDescription": "用于保存聊天图片到相册。",
+          "NSLocalNetworkUsageDescription": "用于连接局域网 TeamSpeak 6 服务器。"
+        }
+      }
+    }
+  ],
   "news": []
 }
